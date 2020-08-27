@@ -8,11 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body class="page">
     <!-- шапка сайта -->
@@ -63,7 +59,7 @@
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <button class="hero-button link" type="button" data-modal-open>
+        <button class="hero-button" type="button" data-modal-open>
           Заказать услугу
         </button>
       </section>
@@ -443,21 +439,9 @@
                 />
                 <span class="footer-form-label">E-mail</span>
               </label>
-
-              <!-- форма подписки на рассылку на Divах -->
-              <!-- <div class="footer-form-field">
-                <label class="footer-form-label" for="mail">E-mail</label>
-                <input
-                  class="email-input-field"
-                  type="email"
-                  name="mail"
-                  id="mail"
-                />
-              </div> -->
-
               <button class="form-button" type="submit">
                 Подписаться
-                <svg class="social-link-icon telegram">
+                <svg class="social-link-icon telegram-icon">
                   <use href="./images/sprite.svg#icon-telegram"></use>
                 </svg>
               </button>
@@ -510,48 +494,6 @@
             <use href="./images/sprite.svg#icon-mail-input"></use>
           </svg>
         </label>
-
-        <!-- Инпуты на Divах -->
-        <!-- <div class="form-field">
-          <input
-            class="form-input"
-            type="text"
-            name="name"
-            id="name"
-            placeholder=" "
-          />
-          <label class="form-label" for="name">Имя</label>
-          <svg class="modal-input-icon" width="12" height="12">
-            <use href="./images/sprite.svg#icon-name-input"></use>
-          </svg>
-        </div>
-        <div class="form-field">
-          <input
-            class="form-input"
-            type="tel"
-            name="tel"
-            id="tel"
-            placeholder=" "
-          />
-          <label class="form-label" for="tel">Телефон</label>
-          <svg class="modal-input-icon" width="14" height="14">
-            <use href="./images/sprite.svg#icon-tel-input"></use>
-          </svg>
-        </div>
-        <div class="form-field">
-          <input
-            class="form-input"
-            type="email"
-            name="mail"
-            id="mail"
-            placeholder=" "
-          />
-          <label class="form-label" for="mail">Почта</label>
-          <svg class="modal-input-icon" width="16" height="12">
-            <use href="./images/sprite.svg#icon-mail-input"></use>
-          </svg>
-        </div> -->
-
         <label class="form-field">
           <textarea
             class="form-textarea"
@@ -561,19 +503,6 @@
           ></textarea>
           <span class="form-label">Комментарий</span>
         </label>
-
-        <!-- textarea на Divах -->
-        <!-- <div class="textarea-field">
-          <textarea
-            class="form-textarea"
-            name="comment"
-            id="comment"
-            rows="6"
-            placeholder="Введите текст"
-          ></textarea>
-          <label class="form-label" for="comment">Комментарий</label>
-        </div> -->
-
         <label class="checkbox-field">
           <input class="checkbox" type="checkbox" name="checkbox" value="" />
           <span class="checkbox-icon"></span>
@@ -582,14 +511,6 @@
             <a class="link checkbox-link" href="">Условия договора</a>
           </span>
         </label>
-
-        <!-- <div class="checkbox-field">
-          <input type="checkbox" name="checkbox" value="" id="" />
-          <label class="checkbox-label" for="checkbox"
-            >Соглашаюсь с рассылкой и принимаю
-            <a class="link checkbox-link" href="">Условия договора</a></label
-          >
-        </div> -->
         <button class="form-button" type="submit">
           Отправить
         </button>
